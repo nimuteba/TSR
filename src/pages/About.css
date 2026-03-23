@@ -1,0 +1,60 @@
+.about-hero {
+  height: 60vh;
+  background: url("https://images.unsplash.com/photo-1503387762-592deb58ef4e")
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.about-mission {
+  background: #f1f5f2;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.about-team {
+  background: #fafafa;
+  text-align: center;
+}
+
+.about-cta {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about-cta button {
+  margin-top: 15px;
+  padding: 12px 24px;
+  background: white;
+  color: #2e7d32;
+  border: none;
+  cursor: pointer;
+}
